@@ -2,19 +2,17 @@
 //  MovieCell.swift
 //  practice
 //
-//  Created by Rajene Harris on 9/27/20.
+//  Created by Rajene Harris on 10/2/20.
 //  Copyright © 2020 Codepath. All rights reserved.
 //
 
 import UIKit
 
 class MovieCell: UITableViewCell {
-    @IBOutlet weak var titleLabel:
-    UILabel!
-    @IBOutlet weak var synopsisLabel:
-    UILabel!
-    @IBOutlet weak var posterView:
-    UILabel!
+
+    @IBOutlet weak var posterView: UIImageView!
+    @IBOutlet weak var synopsisLabel: UILabel!
+    @IBOutlet weak var titleLabel: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
